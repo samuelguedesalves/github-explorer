@@ -1,7 +1,9 @@
+import { RepositoryList } from './components/RepositoryList'
+
 const App = () => {
-  return(
+  return (
     <>
-      <h1>Github Explorer</h1>
+      <RepositoryList />
     </>
   )
 }
