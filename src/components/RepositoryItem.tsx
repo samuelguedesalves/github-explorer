@@ -1,4 +1,14 @@
-export function RepositoryItem(props) {
+import React from 'react'
+
+interface RepositoryItemProps {
+  repository: {
+    name: string
+    description: string
+    html_url: string
+  }
+}
+
+export const RepositoryItem: React.FC<RepositoryItemProps> = (props) => {
   return (
     <li className="repository-item">
       <strong>{props.repository.name ?? 'Default'}</strong>

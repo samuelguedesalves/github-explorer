@@ -13,6 +13,11 @@ section.repository-list {
     margin-bottom: 16px;
   }
 
+  span.loading-label {
+    display: block;
+    text-align: center;
+  }
+
   ul {
     list-style: none;
 
