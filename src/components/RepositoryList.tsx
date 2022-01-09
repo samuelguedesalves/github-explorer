@@ -13,7 +13,7 @@ export function RepositoryList() {
 
   useEffect(() => {
     function loadRepository() {
-      fetch('https://api.github.com/orgs/rocketseat/repos')
+      fetch('https://api.github.com/orgs/facebook/repos')
         .then((response) => response.json())
         .then((data) => {
           setRepositories(data)
